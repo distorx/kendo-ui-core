@@ -32,7 +32,7 @@ When a Kendo UI DataSource instance must be bound to local data without the need
 
     var dataSource = new kendo.data.DataSource({
         data: sampleData
-    }
+    })
 
 However, when editing will be used, then a `transport` configuration is required. The `data` option is no longer needed.
 The `read` method of the `transport` should pass a local variable. It can even make a custom Ajax request and then pass the response.
